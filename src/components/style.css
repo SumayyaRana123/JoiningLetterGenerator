@@ -1,0 +1,55 @@
+
+#container{
+
+    width: 80%;
+    margin: 10px auto;
+}
+label {
+    float: left;
+    text-align: left;
+    margin: 0px 5px;
+    padding: 10px;
+    width: 40%;
+  }
+  #container > input 
+  {
+       margin: 10px 5px;
+      padding: 10px;
+      border-radius: 5px;
+      width: 40%;
+    
+  }
+  #container > input[type='date']
+  {
+     margin: 10px 5px;
+      padding: 10px;
+      border-radius: 5px;
+      width: 40%;
+    
+  }
+  #container > select{
+      margin: 10px 5px;
+      padding: 10px;
+      border-radius: 5px;
+      width: 45%;
+  }
+  #container > p{
+ color: red;
+ font-size: smaller;
+ margin: 0;
+ padding: 0;
+ width: 50%;
+ float: right;
+  }
+  #btnGenerate {
+    border-radius: 10px;
+    border: 2px solid grey;
+    background-color: rgb(66, 66, 75);
+    width: 35%;
+    color: aliceblue;
+    float:right;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+
+}
